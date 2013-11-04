@@ -12,5 +12,6 @@ public class BankController {
 	public void checkPINCod(){}
 	public void checkLockCard(){}
 	public void lockCard(){}
+	public void changeBalance() {}
 
 }

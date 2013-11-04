@@ -7,5 +7,6 @@ public class Keyboard {
 	public int inputSum(){}
 	public int inputTransactionType(){}
 	public void cancelOperation(){}
+	
 
 }
