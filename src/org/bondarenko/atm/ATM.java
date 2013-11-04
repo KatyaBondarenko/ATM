@@ -1,21 +1,27 @@
 package org.bondarenko.atm;
 
 public class ATM {
-	private int cardId;
-	private int pinCode; 
-	private int sum ;
+	Dispenser dispenser = new Dispenser();
+	CardScanner cardScanner = new CardScanner();
+	Keyboard keyboard = new Keyboard();
+	
+	public void startWork(){}
+	public void completeWork(){}
+	public void openAccount(){}
+	public void verifyBalance(){}
+	public void checkIDCard(){}
+	public boolean checkPINCod(){
+		return true;
+	}
+	public boolean checkLockCard(){
+		return true;
+	}
+	public void lockCard(){}
+	public void changeBalance() {}
 
+	
 	public static void main(String[] args) {
 		
 
 	}
-	
-	public short readPINCod()
-	public boolean checkPIN()
-	public boolean checkIDcard()
-	public void createTransaction()
-	public void completeTransaction()
-	public Boolean hasNecessarySum()
-	public void setSum(int sum)
-
 }
