@@ -2,9 +2,19 @@ package org.bondarenko.atm;
 
 public class CardScanner {
 	private int cardId ;
-	private int readCardId(){}
-	public void outputCard(){}
-	public void getCard(){}
-	public void getCardId(){}
+	
+	public int readCardId(){
+		int id = 0;
+		return id;
+	}
+	public void outputCard(){
+		
+	}
+	public void getCard(){
+		
+	}
+	public void getCardId(){
+		
+	}
 
 }
